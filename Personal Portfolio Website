@@ -1,0 +1,247 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Personal Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+    <div>
+     <a class="text-xl font-bold text-gray-800" href="#">
+      My Portfolio
+     </a>
+    </div>
+    <nav class="space-x-4">
+     <a class="text-gray-800 hover:text-gray-600" href="#home">
+      Home
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="#about">
+      About Me
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="#projects">
+      Projects
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="#contact">
+      Contact
+     </a>
+    </nav>
+   </div>
+   
+  </header>
+  <section class="bg-cover bg-center h-screen" id="home" style="background-image: url('https://www.developer-tech.com/wp-content/uploads/2023/01/visual-studio-code-vscode-development-coding-aqua-security-hacking-1536x1024.jpeg');">
+   <div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50">
+    <div class="text-center" style="position: absolute;" style="padding: 0cm; font-style: oblique; color: aquamarine ;">
+        <h1 class="text-4xl font-bold text-white" style="font-family: 'Courier New', Courier, monospace;">
+         Nishant Chaudhary
+        </h1>
+    <div class="text-center">
+     <h1 class="text-4xl font-bold text-white" style="font-family: 'Courier New', Courier, monospace;">
+      Welcome to My Portfolio
+     </h1>
+     <p class="text-xl text-gray-300 mt-4" style="font-family: 'Times New Roman', Times, serif;">
+      I am a Python and Web Developer with a passion for creating beautiful and functional websites and projects.
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="py-20 bg-white" id="about">
+   <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center text-gray-800" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+     About Me
+    </h2>
+    <div class="mt-8 flex flex-col md:flex-row items-center">
+     <div class="w-full md:w-1/2">
+      <img alt="Professional photo of the web developer" class="rounded-full mx-auto" height="500" src="file:///C:/Users/lalit%20computer/Desktop/f4f8b1f5-cbfc-48a5-a0d6-7c7bb8bc39c3.jpg" width="500"/>
+     </div>
+     <div class="w-full md:w-1/2 mt-8 md:mt-0 md:pl-12" style="font-family: 'Arial', sans-serif; max-width: 800px; margin: auto;">
+        
+        <p class="text-gray-600" style="font-size: 1.2em; line-height: 1.6; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            <i>Hello! I am a dedicated <strong style="color: #007BFF;">Python</strong> and web developer with a strong background in creating dynamic and responsive websites and applications. Currently pursuing a <strong style="color: #007BFF;">Bachelor of Computer Applications (BCA)</strong>, I am committed to continually enhancing my professional skills and staying updated with the latest industry trends.</i>
+        </p>
+        <p class="text-gray-600 mt-4" style="font-size: 1.2em; line-height: 1.6; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+           <i> My technical expertise encompasses <strong style="color: #007BFF;">HTML</strong>, <strong style="color: #007BFF;">CSS</strong>, <strong style="color: #007BFF;">JavaScript</strong>, <strong style="color: #007BFF;">Python</strong>, and <strong style="color: #007BFF;">MySQL</strong>. I am passionate about learning new technologies and methodologies, which allows me to deliver innovative solutions that meet user needs. As a fresher in the field, I am eager to embrace new challenges and contribute meaningfully to exciting projects.</i>
+        </p>
+        <p class="text-gray-600 mt-4" style="font-size: 1.2em; line-height: 1.6; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            <i>In my free time, I enjoy contributing to open-source projects, exploring emerging web development trends, and sharing my knowledge with the community through blog posts and tutorials. I believe in the power of collaboration and am always looking for opportunities to connect and learn from others.</i>
+        </p>
+    </div>
+    
+    
+    </div>
+   </div>
+  </section>
+  <section class="py-20 bg-gray-100" id="projects">
+   <div class="container mx-auto px-6">
+    <h2 class="text-5xl font-bold text-center text-gray-800" style="font-style: oblique; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >
+     Projects
+    </h2>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img alt="Screenshot of Project 1" class="w-full h-48 object-cover" height="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0v2OgtDTaqJkMvWfS-O75IACeXJSwmUpfLw&s" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-bold text-gray-800">
+        Project 1
+       </h3>
+       <p class="text-gray-600 mt-2">
+        A brief description of Project 1, highlighting its features and technologies used.
+       </p>
+      </div>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img alt="Screenshot of Project 2" class="w-full h-48 object-cover" height="400" src="https://i.ytimg.com/vi/7s46TcTr5eo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDbrcGMdKmfVXfpUHSHgfsVjgPSkg" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-bold text-gray-800">
+        Project 2
+       </h3>
+       <p class="text-gray-600 mt-2">
+        A brief description of Project 2, highlighting its features and technologies used.
+       </p>
+      </div>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img alt="Screenshot of Project 3" class="w-full h-48 object-cover" height="400" src="https://www.codedex.io/images/projects/card_images/create-a-to-do-list-app-with-html-css-js.png" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-bold text-gray-800">
+        Project 3
+       </h3>
+       <p class="text-gray-600 mt-2">
+        A brief description of Project 3, highlighting its features and technologies used.
+       </p>
+      </div>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img alt="Screenshot of Project 4" class="w-full h-48 object-cover" height="400" src="https://landingi.com/wp-content/uploads/2024/04/3_6_compare.webp" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-bold text-gray-800">
+        Project 4
+       </h3>
+       <p class="text-gray-600 mt-2">
+        A brief description of Project 4, highlighting its features and technologies used.
+       </p>
+      </div>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img alt="Screenshot of Project 5" class="w-full h-48 object-cover" height="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVk6E69G6b0UNS5OJIwXluizlQNDzXQO1IYQ&s" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-bold text-gray-800">
+        Project 5
+       </h3>
+       <p class="text-gray-600 mt-2">
+        A brief description of Project 5, highlighting its features and technologies used.
+       </p>
+      </div>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img alt="Screenshot of Project 6" class="w-full h-48 object-cover" height="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThxKA7HvO10GTQBbTTroY57QxgaI-W6kfyUw&s" width="600"/>
+      <div class="p-6">
+       <h3 class="text-xl font-bold text-gray-800">
+        Project 6
+       </h3>
+       <p class="text-gray-600 mt-2">
+        A brief description of Project 6, highlighting its features and technologies used.
+       </p>
+      </div>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img alt="Screenshot of Project 7" class="w-full h-48 object-cover" height="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJRBH1sn_OioSgaUU9MhROGKsiC4vKgOeMKw&s" width="600"/>
+        <div class="p-6">
+         <h3 class="text-xl font-bold text-gray-800">
+          Project 7
+         </h3>
+         <p class="text-gray-600 mt-2">
+          A brief description of Project 4, highlighting its features and technologies used.
+         </p>
+        </div>
+       </div>
+       <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img alt="Screenshot of Project 8" class="w-full h-48 object-cover" height="400" src="https://codehalweb.com/wp-content/uploads/2023/09/thumbnail-741x486.jpg" width="600"/>
+        <div class="p-6">
+         <h3 class="text-xl font-bold text-gray-800">
+          Project 8
+         </h3>
+         <p class="text-gray-600 mt-2">
+          A brief description of Project 4, highlighting its features and technologies used.
+         </p>
+        </div>
+       </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-20 bg-white" id="contact">
+   <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800">
+     Contact
+    </h2>
+    <div class="mt-8 flex justify-center">
+     <form class="w-full max-w-lg">
+      <div class="flex flex-wrap -mx-3 mb-6">
+       <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="name">
+         Name
+        </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="name" placeholder="Your Name" type="text"/>
+       </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+       <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
+         Email
+        </label>
+        <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" placeholder="Your Email" type="email"/>
+       </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-6">
+       <div class="w-full px-3">
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="message">
+         Message
+        </label>
+        <textarea class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="message" placeholder="Your Message" rows="5"></textarea>
+       </div>
+      </div>
+      <div class="flex justify-center">
+        <a href="mailto:kunalchaudhary839392@gmail.com?subject=Message&body=Your%20message%20goes%20here."
+           class="bg-gray-800 text-white font-bold py-2 px-4 rounded hover:bg-gray-700">
+          Send Message
+        </a>
+      </div>      
+     </form>
+    </div>
+   </div>
+  </section>
+  <footer class="bg-gray-800 py-6">
+   <div class="container mx-auto px-6 text-center text-white">
+    <p>
+     © 2023 My Portfolio. All rights reserved.
+    </p>
+    <div class="mt-4">
+     <a class="text-white hover:text-gray-400 mx-2" href="#">
+      <i class="fab fa-instagram"></i>
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="#">
+        <i class="fas fa-envelope"></i>  
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="https://www.linkedin.com/in/nishant-sheoran9389/">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a class="text-white hover:text-gray-400 mx-2" href="https://github.com/nishant1221-github">
+      <i class="fab fa-github">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
